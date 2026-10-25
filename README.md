@@ -18,7 +18,7 @@
 
 ## 📌 Overview
 
-Offline Elasticsearch / OpenSearch configuration security auditor
+OElasticX — Offline Elasticsearch / OpenSearch Config Auditor. It provides tolerant stdlib YAML-subset parser (nested + dotted keys, flow/block lists, quoting, line origin, tabs, duplicates); Elasticsearch / OpenSearch flavour detection & aliasing. Built-in demo/self-test paths and severity gates help validate detections without touching production when those flags are used.
 
 ---
 
@@ -43,7 +43,10 @@ Offline Elasticsearch / OpenSearch configuration security auditor
 ## 🚀 Usage
 
 ```bash
-./OElasticX
+./OElasticX                                     # interactive menu
+./OElasticX --scan -r /path/to/root
+./OElasticX --demo
+./OElasticX --help
 ```
 
 ---
